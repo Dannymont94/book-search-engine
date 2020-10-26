@@ -1,8 +1,8 @@
 import gql from 'graphql-tag';
 
 export const GET_ME = gql`
-  query me($_id: ID!) {
-    me(_id: $_id) {
+  query me {
+    me {
       savedBooks {
         bookId
         image
